@@ -1,0 +1,11 @@
+nav {
+    margin-bottom: 1em !important;
+}
+
+.jumbotron {
+    margin-top: 1em;
+    padding-top: 2rem;
+    & .list-group {
+        margin-bottom: 1em;
+    }
+}
