@@ -15,7 +15,7 @@
                 @foreach($players as $player)
                     <tr>
                         <td>{{ $player->name }}</td>
-                        <td><a class="btn btn-sm btn-warning" href="{{ url('/players/' . $player->id . '/edit') }}">Bewerken</a></td>
+                        <td><a class="disabled btn btn-sm btn-warning" href="{{ url('/players/' . $player->id . '/edit') }}">Bewerken</a></td>
                     </tr>
                 @endforeach
             </tbody>
